@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+}
+
+/*---------MENU---------*/
+.menu {
+    background-color:#1B1B1B;
+    margin: 0px 85px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 10px 10px;
+}
+.menu .menu-item{
+    width: 900px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .menu-item .menu-item-text{
+    color: #9C9C9C;
+    font-size: 14px;
+    font-family: monospace;
+    text-decoration: none;
+}
+.menu .menu-icon{
+    width: 100px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .menu-icon .menu-icon-item img{
+    height: 17px;
+}
+
+/*---------HEADER---------*/
+.header {
+    margin: 100px 180px 0px 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header .header-column{
+    margin: auto 0px ;
+    margin-right: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.header .header-column .header-column-name{
+color: white;
+font-weight: bold;
+font-size: 44px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header .header-column .header-column-info{
+color: #9C9C9C;
+font-size: 14px;
+font-family: monospace;
+text-align: justify;
+line-height: 24px;
+width: 500px;
+}
+.header .header-column .header-column-button {
+    color:white;
+    font-size: 16px;
+    font-family: monospace;
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: #62BA1B;
+    background-color: #3F8E00;
+    box-shadow: 0px 0px 5px #62BA1B;
+}
+.header .header-icon img{
+    width: 350px;
+    border-radius: 50%;
+}
+
+/*---------FOOTER---------*/
+.footer {
+    margin: 100px 180px 10px 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer .footer-text{
+color:white;
+margin:20px 0px ;
+font-family: monospace;
+font-size: 14px;
+}
+.footer .footer-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
